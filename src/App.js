@@ -8,6 +8,7 @@ import auto630001255 from './files/auto630001255.pdf';
 import determinacionAcreencias from './files/determinacionAcreencias.pdf';
 import planDeNegocios from './files/planDeNegocios.pdf';
 import proyectoDeAcuerdo from './files/proyectoDeAcuerdo.pdf';
+import logoSmx from './files/logoSmx.jpeg';
 
 function App() {
   return (
@@ -93,11 +94,14 @@ function App() {
         <br></br>
       </div>
       <div className = 'contact'>
-        <h2>Contacto:</h2>
-        <p><span>Promotor:</span> Ramiro Herrera Estrada</p>
-        <p><span>Dirección:</span> Carrera 6 # 90 - 52</p>
-        <p><span>Teléfono:</span> 3114033324</p>
-        <p>Barranquilla, Colombia.</p>
+        <div className = 'contactInfo'>
+          <h2>Contacto:</h2>
+          <p><span>Promotor:</span> Ramiro Herrera Estrada</p>
+          <p><span>Dirección:</span> Carrera 6 # 90 - 52</p>
+          <p><span>Teléfono:</span> 3114033324</p>
+          <p>Barranquilla, Colombia.</p>
+        </div>
+        <img src = {logoSmx}></img>
       </div>
     </div>
   );
