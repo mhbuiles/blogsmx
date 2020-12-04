@@ -8,6 +8,10 @@ import auto630001255 from './files/auto630001255.pdf';
 import determinacionAcreencias from './files/determinacionAcreencias.pdf';
 import planDeNegocios from './files/planDeNegocios.pdf';
 import proyectoDeAcuerdo from './files/proyectoDeAcuerdo.pdf';
+import eeffjun302020smx from './files/eeffjun302020smx.pdf';
+import eeffsep302020smx from './files/eeffsep302020smx.pdf';
+import notaseeffjun302020smx from './files/notaseeffjun302020smx.pdf';
+import notaseeffsep302020smx from './files/notaseeffsep302020smx.pdf';
 import logoSmx from './files/logoSmx.jpeg';
 
 function App() {
@@ -78,15 +82,23 @@ function App() {
         <h2>Documentos soporte:</h2>
         <a href = {actaConciliacion} target = '_blank'>Acta de conciliación</a>
         <br></br>
-        <a href = {auto001105} target = '_blank'>Citación continuación reunión de conciliación</a>
-        <br></br>
         <a href = {auto63000776} target = '_blank'>Admisión proceso de reorganización</a>
+        <br></br>
+        <a href = {auto001105} target = '_blank'>Citación continuación reunión de conciliación</a>
         <br></br>
         <a href = {auto630000985} target = '_blank'>Citación reunión de conciliación</a>
         <br></br>
         <a href = {auto630001255} target = '_blank'>Convocatoria audiencia resolución de objeciones y confirmación del acuerdo</a>
         <br></br>
         <a href = {determinacionAcreencias} target = '_blank'>Determinación de acreencias y derechos de voto</a>
+        <br></br>
+        <a href = {eeffjun302020smx} target = '_blank'>Estados financieros a Junio 30 de 2020</a>
+        <br></br>
+        <a href = {eeffsep302020smx} target = '_blank'>Estados financieros a Septiembre 30 de 2020</a>
+        <br></br>
+        <a href = {notaseeffjun302020smx} target = '_blank'>Notas a los estados financieros a Junio 30 de 2020</a>
+        <br></br>
+        <a href = {notaseeffsep302020smx} target = '_blank'>Notas a los estados financieros a Septiembre 30 de 2020</a>
         <br></br>
         <a href = {planDeNegocios} target = '_blank'>Plan de negocios</a>
         <br></br>
