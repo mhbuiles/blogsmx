@@ -12,6 +12,7 @@ import eeffjun302020smx from './files/eeffjun302020smx.pdf';
 import eeffsep302020smx from './files/eeffsep302020smx.pdf';
 import notaseeffjun302020smx from './files/notaseeffjun302020smx.pdf';
 import notaseeffsep302020smx from './files/notaseeffsep302020smx.pdf';
+import actaResolAcuerdo from './files/actaResolAcuerdo.pdf';
 import logoSmx from './files/logoSmx.jpeg';
 
 function App() {
@@ -81,6 +82,8 @@ function App() {
       <div className = 'links'>
         <h2>Documentos soporte:</h2>
         <a href = {actaConciliacion} target = '_blank'>Acta de conciliación</a>
+        <br></br>
+        <a href = {actaResolAcuerdo} target = '_blank'>Acta resolución de objeciones y confirmación del acuerdo</a>
         <br></br>
         <a href = {auto63000776} target = '_blank'>Admisión proceso de reorganización</a>
         <br></br>
