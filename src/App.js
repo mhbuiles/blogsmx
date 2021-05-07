@@ -15,7 +15,7 @@ import notaseeffsep302020smx from './files/notaseeffsep302020smx.pdf';
 import actaResolAcuerdo from './files/actaResolAcuerdo.pdf';
 import eeffdic2020smx from './files/eeffdic2020smx.pdf'
 import eeffmar2021smx from './files/eeffmar2021smx.pdf'
-import notaseeffdic2020smx from './files/notaseeffdic2020smx'
+import notaseeffdic2020smx from './files/notaseeffdic2020smx.pdf'
 import notaseeffmar2021smx from './files/notaseeffmar2021smx.pdf'
 import logoSmx from './files/logoSmx.jpeg';
 
