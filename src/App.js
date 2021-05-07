@@ -13,6 +13,10 @@ import eeffsep302020smx from './files/eeffsep302020smx.pdf';
 import notaseeffjun302020smx from './files/notaseeffjun302020smx.pdf';
 import notaseeffsep302020smx from './files/notaseeffsep302020smx.pdf';
 import actaResolAcuerdo from './files/actaResolAcuerdo.pdf';
+import eeffdic2020smx from './files/eeffdic2020smx.pdf'
+import eeffmar2021smx from './files/eeffmar2021smx.pdf'
+import notaseeffdic2020smx from './files/notaseeffdic2020smx'
+import notaseeffmar2021smx from './files/notaseeffmar2021smx.pdf'
 import logoSmx from './files/logoSmx.jpeg';
 
 function App() {
@@ -106,6 +110,14 @@ function App() {
         <a href = {planDeNegocios} target = '_blank'>Plan de negocios</a>
         <br></br>
         <a href = {proyectoDeAcuerdo} target = '_blank'>Proyecto de acuerdo</a>
+        <br></br>
+        <a href = {eeffdic2020smx} target = '_blank'>Estados financieros a diciembre 31 de 2020</a>
+        <br></br>
+        <a href = {notaseeffdic2020smx} target = '_blank'>Notas a los estados financieros a diciembre 31 de 2020</a>
+        <br></br>
+        <a href = {eeffmar2021smx} target = '_blank'>Estados financieros a marzo 31 de 2021</a>
+        <br></br>
+        <a href = {notaseeffmar2021smx} target = '_blank'>Notas a los estados financieros a marzo 31 de 2021</a>
         <br></br>
       </div>
       <div className = 'contact'>
